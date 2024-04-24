@@ -1,3 +1,15 @@
+Hi Kashi,
+this sounds good to me.
+For SE_14 I need to see some low-complexity application of machine learning and it seems like your testing of a supervised machine learning model would fit the bill.
+
+I don't need the most complex machine learning model for this module, so I recommend making things as simple for you as you can.
+Image classification can have a bunch of hidden complexity. Some things I could think of that you could encounter:
+Images with different formats and sizes / dimensions.
+Images that contain noise in the form of background or a human model wearing the clothing item.
+For SE_14 you don't need to go into detail on these complications so I recommend to take images that are as clean as possible (if that is an option) and to downsample them heavily. My intuition tells me that to detect colors you don't need to have superresolution images but may be able to get away with a fairly small size - like 64 x 64 or even 32 x 32.
+I recommend training a "normal" neural network here. I think the problem is complex enough that some of the more simple models will not perform well (though you could try maybe SVMs) and the problem is more based on pixel values than on shapes so convolutional layers will likely not be necessary.
+
+
 # RGB Color Classifier Project
 
 ## Overview
