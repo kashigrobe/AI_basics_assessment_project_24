@@ -74,6 +74,14 @@ def RGB_classifier(image_path):
     """
     image = Image.open(image_path)
     image = image.convert('RGB')
+
+    # loads the RGB values as triplets into a numpy array
+    # Here's what the data layout looks like:
+
+    # pixels[y, x, 0] is the Red component of the pixel at position (x, y).
+    # pixels[y, x, 1] is the Green component.
+    # pixels[y, x, 2] is the Blue component.
+    
     pixels = np.array(image)
 
     # Calculate the mean color in each channel
