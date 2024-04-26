@@ -1,6 +1,17 @@
 
 # RGB Color Classifier Project
 
+## Requirements
+Hand-ins This module requires the submission of the following artifacts:
+
+Your code base (e.g. a link to the code in a version control system). The code base should be accompanied by a README file explaining the structure of the repository and how to start the system. If the repository is non-public, the module coordinator needs to have access by the time of submission (use the account with their code email).
+
+A high-level description of your submitted artifacts following the template linked here. This description should make clear which problem you have solved using AI technology, which branch of AI you have applied to solve it, and which algorithm you have applied. If you have worked on multiple problems, you may submit multiple high-level descriptions. Each description should not be longer than one page.
+
+Please use the Hand-ins section of the Learning Platform (see menu on the lefthand side) for submission.
+
+---
+
 ## Overview
 This project implements a simple RGB color classifier. Given an image, the classifier determines the dominant color among Red, Green, or Blue by analyzing the average RGB values of all pixels.
 
