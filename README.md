@@ -2,7 +2,7 @@
 
 This document presents a simulated approach for the development of a `color classifier`. In a real-life scenario a machine learning framework such as PyTorch or TensorFlow would be used.
 
-We prentent to use `labeled` training data, which is unicolor images, categorized into directories named after the respective colors `(red, green, blue)`. 
+I pretended to use `labeled` training data, which is unicolor images, categorized into directories named after the respective colors `(red, green, blue)`. 
 
 The labeled data would be loaded using the data loading routine in PyTorch et al and split into training and validation dataset - usually an 80/20 split is used for model training.
 
