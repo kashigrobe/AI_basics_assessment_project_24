@@ -1,21 +1,14 @@
 ### Color Classifier Project
-
 This document presents a simulated approach for the development of a `color classifier`. In a real-life scenario a machine learning framework such as PyTorch or TensorFlow would be used.
-
 I pretended to use `labeled` training data, which is unicolor images, categorized into directories named after the respective colors `(red, green, blue)`. 
-
 The labeled data would be loaded using the data loading routine in PyTorch et al and split into training and validation dataset - usually an 80/20 split is used for model training.
-
 A valid approach for the classifier could be a `Convolutional Neural Network (CNN)`. In this project a much more simple approach is utilized to show the case. The `RGB_classifier`can be found in the `Jupyter Notebook`.
 
 **Important Note**: When ML modeling it is of critical importance to separate training and testing datasets to prevent data leakage and overfitting.
 
-
 **Let's assume that the classifier has been constructed during the described training.**
-The code in the Jupyter notebook shows several scenarios where images are classified into their respective color or tagged as tagged as unclassified.
-
-For sake of simplicty multiple 3x3 pixel images, with an 8-bit color depth have been created via the `create_image` function. Every pixel is represented by an RGB color value triplet e.g. [0, 0, 255] for blue.   
-
+The code in the Jupyter notebook shows several scenarios where images are classified into their respective color or tagged as unclassified.
+For sake of simplicty multiple 3x3 pixel images, with an 8-bit color depth have been created via the `create_image` function. Every pixel is represented by an RGB color value triplet e.g. [0, 0, 255] for blue.  
 In the test scenario two images are expected to be classified as blue and green, while the third is tagged as unclassified. This scenario simulated the application of the trained model in a real-world scenario.
 
 
